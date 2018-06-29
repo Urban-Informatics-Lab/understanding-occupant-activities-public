@@ -11,4 +11,4 @@ If the primary componenet selection process results in 2 components, then this f
 This file completes the classification process, using a Gaussian mixture model. It is currently set up to first fit a 2-component Gaussian mixture model to each sub-dataset (for each occupant for each day), separate the higher energy data, and then fit another 2-component Gaussian mixture model to the higher-energy sub-datasets. This two-step, two-component set up is based on the results from the component selection processes. See the paper for details.
 
 ## Data
-The files are currently set up to read the ``UIL_data_15min`` file, which contains 12x96 rows and 7 columns, where the columns indicate the 7 occupants and the rows indicate the time steps. The data and the code are set up for 15-minute energy data, where 1 day contains 96 data points for each occupant.
+The scripts are currently set up to read the ``UIL_data_15min`` file, which contains 12x96 rows and 7 columns, where the columns indicate the 7 occupants and the rows indicate the time steps. The data and the code are set up for 15-minute energy data, where 1 day contains 96 data points for each occupant.
